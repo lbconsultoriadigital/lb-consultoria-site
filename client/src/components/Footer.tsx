@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
           <div>
             <img
-              src="/manus-storage/lb_logo_horizontal_5730f244.png"
+              src="/assets/logos/lb-horizontal.svg"
               alt="LB Consultoria de Carreira"
               className="h-10 w-auto mb-4"
             />
