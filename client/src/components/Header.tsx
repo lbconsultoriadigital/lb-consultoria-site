@@ -27,7 +27,7 @@ export default function Header() {
           <img
             src="/assets/logos/lb_monograma_isolado.svg"
             alt="LB Consultoria de Carreira"
-            className="h-10 lg:h-12 w-auto"
+            className="h-12 lg:h-16 w-auto"
           />
           <div className="hidden sm:flex flex-col">
             <span className="text-xs lg:text-sm font-semibold tracking-widest text-charcoal">LB</span>
