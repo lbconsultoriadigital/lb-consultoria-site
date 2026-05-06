@@ -23,15 +23,40 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border/30">
       <div className="container flex items-center justify-between h-20 lg:h-24">
         {/* Logo */}
-        <a href="/" className="flex items-center gap-3 lg:gap-4">
+        <a href="/" className="flex items-center gap-3 lg:gap-4 min-w-0">
           <img
             src="/assets/logos/lb_monograma_header.svg"
             alt="LB Consultoria de Carreira"
-            className="h-12 lg:h-16 w-auto"
+            className="h-12 lg:h-16 w-auto shrink-0"
           />
-          <div className="hidden sm:flex flex-col">
-            <span className="text-xs lg:text-sm font-semibold tracking-widest text-charcoal">LB</span>
-            <span className="text-[0.65rem] lg:text-xs tracking-widest text-charcoal/70">CARREIRA</span>
+
+          {/* Brand lockup */}
+          <div className="hidden lg:flex items-center gap-4 xl:gap-5">
+            <div
+              className="h-11 xl:h-12 w-px bg-[#C9A961] shrink-0"
+              aria-hidden="true"
+            />
+
+            <div className="flex flex-col justify-center leading-none">
+              <span
+                className="whitespace-nowrap text-[0.82rem] xl:text-[0.98rem] tracking-[0.12em] text-charcoal font-medium"
+                style={{ fontFamily: "Cormorant Garamond, Georgia, serif" }}
+              >
+                LB CONSULTORIA DE CARREIRA
+              </span>
+
+              <span className="mt-2 flex items-center gap-2 xl:gap-3 whitespace-nowrap text-[0.46rem] xl:text-[0.55rem] tracking-[0.34em] text-charcoal/65 uppercase">
+                <span>PROPÓSITO</span>
+                <span className="text-[#C9A961] tracking-normal" aria-hidden="true">
+                  •
+                </span>
+                <span>DIREÇÃO</span>
+                <span className="text-[#C9A961] tracking-normal" aria-hidden="true">
+                  •
+                </span>
+                <span>TRANSFORMAÇÃO</span>
+              </span>
+            </div>
           </div>
         </a>
 
@@ -85,6 +110,7 @@ export default function Header() {
                 {item.label}
               </a>
             ))}
+
             <a
               href="#contato"
               onClick={(e) => {
