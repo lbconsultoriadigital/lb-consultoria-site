@@ -25,7 +25,7 @@ export default function Header() {
         {/* Logo */}
         <a href="/" className="flex items-center gap-3 lg:gap-4">
           <img
-            src="/assets/logos/lb_monograma_isolado.svg"
+            src="/assets/logos/lb_monograma_header.svg"
             alt="LB Consultoria de Carreira"
             className="h-12 lg:h-16 w-auto"
           />
