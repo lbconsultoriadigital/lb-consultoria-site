@@ -21,14 +21,18 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border/30">
-      <div className="container flex items-center justify-between h-16 lg:h-20">
+      <div className="container flex items-center justify-between h-20 lg:h-24">
         {/* Logo */}
-        <a href="/" className="flex items-center gap-2">
+        <a href="/" className="flex items-center gap-3 lg:gap-4">
           <img
             src="/assets/logos/lb_monograma_isolado.svg"
             alt="LB Consultoria de Carreira"
             className="h-10 lg:h-12 w-auto"
           />
+          <div className="hidden sm:flex flex-col">
+            <span className="text-xs lg:text-sm font-semibold tracking-widest text-charcoal">LB</span>
+            <span className="text-[0.65rem] lg:text-xs tracking-widest text-charcoal/70">CARREIRA</span>
+          </div>
         </a>
 
         {/* Desktop Nav */}
@@ -57,10 +61,10 @@ export default function Header() {
         {/* Mobile Toggle */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className="md:hidden p-2 text-charcoal"
+          className="md:hidden p-3 text-charcoal"
           aria-label="Menu"
         >
-          {mobileOpen ? <X size={24} /> : <Menu size={24} />}
+          {mobileOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>
 
@@ -76,7 +80,7 @@ export default function Header() {
                   handleNavClick(e, item.href);
                   setMobileOpen(false);
                 }}
-                className="text-base text-charcoal/80 hover:text-charcoal py-2 border-b border-border/20"
+                className="text-lg text-charcoal/80 hover:text-charcoal py-3 border-b border-border/20"
               >
                 {item.label}
               </a>
