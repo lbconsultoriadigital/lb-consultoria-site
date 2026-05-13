@@ -39,7 +39,7 @@
   <style>
     body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
     .text-balance { text-wrap: balance; }
-    .hero-grid { background-image: linear-gradient(rgba(14,14,16,.055) 1px, transparent 1px), linear-gradient(90deg, rgba(14,14,16,.055) 1px, transparent 1px); background-size: 44px 44px; }
+    .hero-grid { background-image: linear-gradient(rgba(14,14,16,.045) 1px, transparent 1px), linear-gradient(90deg, rgba(14,14,16,.045) 1px, transparent 1px); background-size: 44px 44px; }
     .gold-line { background: linear-gradient(90deg, transparent, #C9A961, transparent); }
   </style>
   <script type="application/ld+json">
@@ -56,12 +56,12 @@
 </head>
 <body class="bg-paper text-ink font-sans selection:bg-gold selection:text-ink">
   <header class="fixed top-0 left-0 right-0 z-50 bg-paper/92 backdrop-blur-md border-b border-line">
-    <div class="max-w-7xl mx-auto px-6 lg:px-8 h-20 flex items-center justify-between">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 h-[76px] flex items-center justify-between">
       <a href="#" class="flex items-center gap-3 md:gap-4" aria-label="LB Consultoria de Carreira">
-        <img src="/assets/logos/lb_monograma_header.svg" alt="LB Consultoria de Carreira" class="h-12 md:h-14 w-auto" />
+        <img src="/assets/logos/lb_monograma_header.svg" alt="LB Consultoria de Carreira" class="h-10 md:h-12 w-auto" />
         <div class="hidden sm:flex flex-col leading-none">
-          <span class="font-serif text-base md:text-lg tracking-[0.18em] uppercase">LB Consultoria</span>
-          <span class="mt-1 text-[0.5rem] md:text-[0.58rem] tracking-[0.34em] text-muted uppercase">Propósito · Direção · Transformação</span>
+          <span class="font-serif text-sm md:text-base tracking-[0.18em] uppercase">LB Consultoria</span>
+          <span class="mt-1 text-[0.48rem] md:text-[0.54rem] tracking-[0.3em] text-muted uppercase">Propósito · Direção · Transformação</span>
         </div>
       </a>
       <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-muted">
@@ -85,31 +85,31 @@
   </header>
 
   <main>
-    <section class="relative overflow-hidden pt-40 pb-24 md:pt-48 md:pb-32 px-6 lg:px-8 hero-grid">
-      <div class="max-w-7xl mx-auto grid lg:grid-cols-[1.05fr_.75fr] gap-16 items-end">
-        <div class="max-w-4xl">
-          <div class="flex items-center gap-4 mb-8">
+    <section class="relative overflow-hidden pt-28 pb-18 md:pt-32 md:pb-24 lg:pt-36 lg:pb-28 px-6 lg:px-8 hero-grid">
+      <div class="max-w-7xl mx-auto grid lg:grid-cols-[0.98fr_.72fr] gap-10 xl:gap-14 items-center">
+        <div class="max-w-3xl">
+          <div class="flex items-center gap-4 mb-6">
             <div class="w-12 h-px bg-gold"></div>
-            <span class="font-mono text-xs uppercase tracking-[0.22em] text-muted">Currículo e LinkedIn que o mercado entende</span>
+            <span class="font-mono text-[0.68rem] md:text-xs uppercase tracking-[0.2em] text-muted">Currículo e LinkedIn que o mercado entende</span>
           </div>
-          <div class="space-y-2 mb-8 text-base md:text-lg text-muted leading-relaxed">
+          <div class="space-y-2 mb-6 text-base md:text-[1.05rem] text-muted leading-relaxed">
             <p>Você envia currículo pelo LinkedIn e sites de vagas e quase nunca recebe retorno?</p>
             <p>Você sente que tem experiência, mas o mercado não está enxergando isso?</p>
           </div>
-          <h1 class="font-serif text-5xl md:text-7xl lg:text-8xl leading-[0.95] tracking-tight text-balance mb-8">
+          <h1 class="font-serif text-[3.1rem] md:text-[4.1rem] lg:text-[4.65rem] xl:text-[5.25rem] leading-[1.01] tracking-[-0.035em] text-balance mb-7">
             Seu currículo pode estar escondendo o profissional que você já é.
           </h1>
-          <p class="max-w-2xl text-lg md:text-xl text-muted leading-relaxed mb-10">
+          <p class="max-w-2xl text-base md:text-lg text-muted leading-relaxed mb-8">
             A LB Consultoria de Carreira transforma trajetórias brutas em uma apresentação profissional clara, estratégica e coerente para recrutadores, plataformas de recrutamento e oportunidades reais.
           </p>
           <div class="flex flex-col sm:flex-row gap-4">
-            <a href="#contato" class="inline-flex justify-center px-8 py-4 bg-ink text-paper text-sm font-semibold uppercase tracking-wider hover:bg-graphite transition-colors">Quero corrigir meu currículo e LinkedIn</a>
-            <a href="#metodo" class="inline-flex justify-center px-8 py-4 border border-line text-ink text-sm font-semibold uppercase tracking-wider hover:border-gold transition-colors">Conhecer o método</a>
+            <a href="#contato" class="inline-flex justify-center px-7 py-3.5 bg-ink text-paper text-xs md:text-sm font-semibold uppercase tracking-wider hover:bg-graphite transition-colors">Quero corrigir meu currículo e LinkedIn</a>
+            <a href="#metodo" class="inline-flex justify-center px-7 py-3.5 border border-line text-ink text-xs md:text-sm font-semibold uppercase tracking-wider hover:border-gold transition-colors">Conhecer o método</a>
           </div>
         </div>
-        <aside class="border border-line bg-white/55 p-8 md:p-10 shadow-sm">
-          <p class="font-mono text-xs uppercase tracking-[0.22em] text-muted mb-6">O que a LB corrige</p>
-          <ul class="space-y-5 text-sm text-muted leading-relaxed">
+        <aside class="border border-line bg-white/60 p-6 md:p-8 shadow-sm lg:translate-y-4">
+          <p class="font-mono text-xs uppercase tracking-[0.22em] text-muted mb-5">O que a LB corrige</p>
+          <ul class="space-y-4 text-sm text-muted leading-relaxed">
             <li><strong class="block text-ink font-medium">Clareza de posicionamento</strong> O recrutador entende rapidamente quem você é, o que busca e por que faz sentido para aquela vaga.</li>
             <li><strong class="block text-ink font-medium">Currículo legível e objetivo</strong> Estrutura limpa, linguagem profissional e palavras-chave usadas com naturalidade.</li>
             <li><strong class="block text-ink font-medium">LinkedIn coerente</strong> Headline, Sobre e experiências alinhadas ao objetivo profissional.</li>
