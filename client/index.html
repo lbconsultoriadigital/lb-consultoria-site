@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<!-- LB Consultoria de Carreira · site estático saneado a partir do pacote enviado em 2026-05-13. Backups, __MACOSX e .DS_Store não foram enviados. -->
 <html lang="pt-BR" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Consultoria de Currículo e LinkedIn | LB Consultoria de Carreira</title>
-  <meta name="description" content="Consultoria de carreira humana para fortalecer currículo, LinkedIn e posicionamento profissional com clareza, método e revisão consultiva." />
+  <meta name="description" content="Consultoria de carreira para fortalecer currículo, LinkedIn e posicionamento profissional com clareza, critério e revisão humana." />
   <meta property="og:title" content="Consultoria de Currículo e LinkedIn | LB Consultoria de Carreira" />
   <meta property="og:description" content="Currículo, LinkedIn e posicionamento profissional com clareza, estratégia e linguagem que o mercado entende." />
   <meta property="og:type" content="website" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -24,190 +23,161 @@
             'gold-deep': '#A88843',
             graphite: '#1A1A1D',
             muted: '#5C5C62',
-            line: 'rgba(14, 14, 16, 0.12)',
-            'line-light': 'rgba(245, 241, 234, 0.14)'
+            line: 'rgba(14,14,16,.12)',
+            'line-light': 'rgba(245,241,234,.14)'
           },
           fontFamily: {
-            serif: ['"Playfair Display"', 'serif'],
-            sans: ['Inter', 'sans-serif'],
-            mono: ['"JetBrains Mono"', 'monospace']
+            serif: ['Cormorant Garamond','Georgia','serif'],
+            sans: ['Inter','sans-serif'],
+            mono: ['JetBrains Mono','monospace']
           }
         }
       }
-    };
+    }
   </script>
   <style>
-    body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
-    .text-balance { text-wrap: balance; }
-    .hero-grid { background-image: linear-gradient(rgba(14,14,16,.045) 1px, transparent 1px), linear-gradient(90deg, rgba(14,14,16,.045) 1px, transparent 1px); background-size: 44px 44px; }
-    .gold-line { background: linear-gradient(90deg, transparent, #C9A961, transparent); }
+    body{ -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; background:#F5F1EA; }
+    .text-balance{ text-wrap:balance; }
+    .brand-logo{ width:clamp(210px, 26vw, 330px); height:auto; display:block; }
+    @media (max-width: 640px){ .brand-logo{ width:190px; } }
+    .section-rule{ width:52px; height:1px; background:#C9A961; }
   </style>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {"@type":"Question","name":"Como melhorar meu currículo para ser chamado para entrevistas?","acceptedAnswer":{"@type":"Answer","text":"Um currículo profissional precisa apresentar experiência, escopo, resultados e palavras-chave naturais com clareza. A LB reorganiza a trajetória para facilitar a leitura por recrutadores e plataformas de recrutamento."}},
-      {"@type":"Question","name":"Por que envio currículo e não recebo retorno?","acceptedAnswer":{"@type":"Answer","text":"A falta de retorno pode estar ligada à estrutura do currículo, ausência de palavras-chave, pouca clareza sobre senioridade ou dificuldade de leitura nas plataformas usadas pelas empresas."}},
-      {"@type":"Question","name":"Como deixar meu LinkedIn mais profissional?","acceptedAnswer":{"@type":"Answer","text":"Um perfil profissional no LinkedIn precisa ter headline clara, seção Sobre bem construída, experiências alinhadas ao objetivo e palavras-chave que ajudem recrutadores a encontrar o perfil."}}
-    ]
-  }
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Como melhorar meu currículo para ser chamado para entrevistas?","acceptedAnswer":{"@type":"Answer","text":"Um currículo profissional precisa apresentar experiência, escopo, resultados e palavras-chave naturais com clareza. A LB reorganiza a trajetória para facilitar a leitura por recrutadores e plataformas de recrutamento."}},{"@type":"Question","name":"Por que envio currículo e não recebo retorno?","acceptedAnswer":{"@type":"Answer","text":"A falta de retorno pode estar ligada à estrutura do currículo, ausência de palavras-chave, pouca clareza sobre senioridade ou dificuldade de leitura nas plataformas usadas pelas empresas."}},{"@type":"Question","name":"Como deixar meu LinkedIn mais profissional?","acceptedAnswer":{"@type":"Answer","text":"Um perfil profissional no LinkedIn precisa ter headline clara, seção Sobre bem construída, experiências alinhadas ao objetivo e palavras-chave que ajudem recrutadores a encontrar o perfil."}}]}
   </script>
 </head>
 <body class="bg-paper text-ink font-sans selection:bg-gold selection:text-ink">
-  <header class="fixed top-0 left-0 right-0 z-50 bg-paper/92 backdrop-blur-md border-b border-line">
-    <div class="max-w-7xl mx-auto px-6 lg:px-8 h-[76px] flex items-center justify-between">
-      <a href="#" class="flex items-center gap-3 md:gap-4" aria-label="LB Consultoria de Carreira">
-        <img src="/assets/logos/lb_monograma_header.svg" alt="LB Consultoria de Carreira" class="h-10 md:h-12 w-auto" />
-        <div class="hidden sm:flex flex-col leading-none">
-          <span class="font-serif text-sm md:text-base tracking-[0.18em] uppercase">LB Consultoria</span>
-          <span class="mt-1 text-[0.48rem] md:text-[0.54rem] tracking-[0.3em] text-muted uppercase">Propósito · Direção · Transformação</span>
-        </div>
+  <header class="fixed top-0 left-0 right-0 z-50 bg-paper/95 backdrop-blur-md border-b border-line">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 h-24 flex items-center justify-between">
+      <a href="#" aria-label="LB Consultoria de Carreira" class="flex items-center">
+        <img src="/assets/logos/lb_logo_horizontal.svg" alt="LB Consultoria de Carreira" class="brand-logo" />
       </a>
       <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-muted">
         <a href="#problema" class="hover:text-ink transition-colors">A dor real</a>
         <a href="#metodo" class="hover:text-ink transition-colors">O método</a>
         <a href="#servicos" class="hover:text-ink transition-colors">Serviços</a>
       </nav>
-      <a href="#contato" class="hidden md:inline-flex px-5 py-2.5 bg-ink text-paper text-sm font-medium hover:bg-graphite transition-colors">Quero minha análise</a>
+      <a href="#contato" class="hidden md:inline-flex px-6 py-3 bg-ink text-paper text-sm font-medium hover:bg-graphite transition-colors">Quero minha análise</a>
       <button id="mobile-menu-btn" class="md:hidden p-2" aria-label="Abrir menu" aria-expanded="false">
-        <span class="block w-6 h-px bg-ink mb-1.5"></span><span class="block w-6 h-px bg-ink mb-1.5"></span><span class="block w-6 h-px bg-ink"></span>
+        <span class="block w-7 h-px bg-ink mb-2"></span>
+        <span class="block w-7 h-px bg-ink mb-2"></span>
+        <span class="block w-7 h-px bg-ink"></span>
       </button>
     </div>
     <div id="mobile-menu" class="hidden md:hidden border-t border-line bg-paper px-6 py-6">
-      <nav class="flex flex-col gap-5 text-lg font-serif">
-        <a href="#problema" class="mobile-link">A dor real</a>
-        <a href="#metodo" class="mobile-link">O método</a>
-        <a href="#servicos" class="mobile-link">Serviços</a>
-        <a href="#contato" class="mobile-link inline-flex justify-center mt-2 px-6 py-3 bg-ink text-paper text-sm font-sans uppercase tracking-wider">Quero minha análise</a>
+      <nav class="flex flex-col gap-5 text-xl font-serif">
+        <a href="#problema" class="mobile-link border-b border-line pb-4">A dor real</a>
+        <a href="#metodo" class="mobile-link border-b border-line pb-4">O método</a>
+        <a href="#servicos" class="mobile-link border-b border-line pb-4">Serviços</a>
+        <a href="#contato" class="mobile-link inline-flex justify-center mt-3 px-6 py-3 bg-ink text-paper text-sm font-sans uppercase tracking-wider">Quero minha análise</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="relative overflow-hidden pt-28 pb-18 md:pt-32 md:pb-24 lg:pt-36 lg:pb-28 px-6 lg:px-8 hero-grid">
-      <div class="max-w-7xl mx-auto grid lg:grid-cols-[0.98fr_.72fr] gap-10 xl:gap-14 items-center">
-        <div class="max-w-3xl">
-          <div class="flex items-center gap-4 mb-6">
-            <div class="w-12 h-px bg-gold"></div>
-            <span class="font-mono text-[0.68rem] md:text-xs uppercase tracking-[0.2em] text-muted">Currículo e LinkedIn que o mercado entende</span>
-          </div>
-          <div class="space-y-2 mb-6 text-base md:text-[1.05rem] text-muted leading-relaxed">
-            <p>Você envia currículo pelo LinkedIn e sites de vagas e quase nunca recebe retorno?</p>
-            <p>Você sente que tem experiência, mas o mercado não está enxergando isso?</p>
-          </div>
-          <h1 class="font-serif text-[3.1rem] md:text-[4.1rem] lg:text-[4.65rem] xl:text-[5.25rem] leading-[1.01] tracking-[-0.035em] text-balance mb-7">
-            Seu currículo pode estar escondendo o profissional que você já é.
-          </h1>
-          <p class="max-w-2xl text-base md:text-lg text-muted leading-relaxed mb-8">
-            A LB Consultoria de Carreira transforma trajetórias brutas em uma apresentação profissional clara, estratégica e coerente para recrutadores, plataformas de recrutamento e oportunidades reais.
-          </p>
-          <div class="flex flex-col sm:flex-row gap-4">
-            <a href="#contato" class="inline-flex justify-center px-7 py-3.5 bg-ink text-paper text-xs md:text-sm font-semibold uppercase tracking-wider hover:bg-graphite transition-colors">Quero corrigir meu currículo e LinkedIn</a>
-            <a href="#metodo" class="inline-flex justify-center px-7 py-3.5 border border-line text-ink text-xs md:text-sm font-semibold uppercase tracking-wider hover:border-gold transition-colors">Conhecer o método</a>
-          </div>
+    <section class="pt-36 pb-20 md:pt-44 md:pb-28 px-6 lg:px-8 max-w-7xl mx-auto">
+      <div class="max-w-4xl">
+        <div class="flex items-center gap-4 mb-8">
+          <div class="section-rule"></div>
+          <span class="font-mono text-[0.68rem] md:text-xs uppercase tracking-[0.22em] text-muted">Currículo e LinkedIn que o mercado entende</span>
         </div>
-        <aside class="border border-line bg-white/60 p-6 md:p-8 shadow-sm lg:translate-y-4">
-          <p class="font-mono text-xs uppercase tracking-[0.22em] text-muted mb-5">O que a LB corrige</p>
-          <ul class="space-y-4 text-sm text-muted leading-relaxed">
-            <li><strong class="block text-ink font-medium">Clareza de posicionamento</strong> O recrutador entende rapidamente quem você é, o que busca e por que faz sentido para aquela vaga.</li>
-            <li><strong class="block text-ink font-medium">Currículo legível e objetivo</strong> Estrutura limpa, linguagem profissional e palavras-chave usadas com naturalidade.</li>
-            <li><strong class="block text-ink font-medium">LinkedIn coerente</strong> Headline, Sobre e experiências alinhadas ao objetivo profissional.</li>
-          </ul>
-        </aside>
+        <div class="space-y-2 mb-8 text-base md:text-lg text-muted leading-relaxed max-w-3xl">
+          <p>Você envia currículo pelo LinkedIn e sites de vagas e quase nunca recebe retorno?</p>
+          <p>Você sente que tem experiência, mas o mercado não está enxergando isso?</p>
+          <p>Sua trajetória aparece como impacto ou apenas como uma lista de tarefas?</p>
+        </div>
+        <h1 class="font-serif text-[3.25rem] md:text-[5rem] lg:text-[6.4rem] leading-[.94] tracking-[-0.035em] font-semibold text-balance mb-8">
+          Você envia currículo e não recebe retorno?
+        </h1>
+        <p class="max-w-2xl text-lg md:text-xl text-muted leading-relaxed mb-10">
+          A LB reestrutura sua apresentação profissional para que currículo, LinkedIn e narrativa de carreira comuniquem com mais clareza o que você já construiu e o que pode entregar.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="#contato" class="inline-flex justify-center px-8 py-4 bg-ink text-paper text-sm font-semibold uppercase tracking-wider hover:bg-graphite transition-colors">Quero corrigir meu currículo e LinkedIn</a>
+          <a href="#metodo" class="inline-flex justify-center px-8 py-4 border border-line text-ink text-sm font-semibold uppercase tracking-wider hover:border-gold transition-colors">Entender o método</a>
+        </div>
       </div>
     </section>
 
-    <section id="problema" class="py-24 md:py-32 px-6 lg:px-8 max-w-7xl mx-auto">
-      <div class="grid lg:grid-cols-[.8fr_1.2fr] gap-16">
+    <section id="problema" class="bg-ink text-paper py-24 md:py-32 px-6 lg:px-8 border-y border-line-light">
+      <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 lg:gap-24 items-start">
         <div>
-          <span class="font-mono text-xs uppercase tracking-[0.22em] text-muted block mb-4">A dor real</span>
-          <h2 class="font-serif text-4xl md:text-5xl leading-tight mb-6">Muita gente não tem um problema de carreira. Tem um problema de apresentação.</h2>
-          <p class="text-muted leading-relaxed">Experiência solta, cargos pouco explicados, palavras-chave ausentes e LinkedIn genérico fazem o mercado subestimar trajetórias que poderiam ser competitivas.</p>
+          <span class="font-mono text-xs uppercase tracking-[0.22em] text-gold mb-6 block">A dor real</span>
+          <h2 class="font-serif text-4xl md:text-6xl leading-tight font-semibold mb-8 text-balance">Você não está sem valor. Você está mal posicionado.</h2>
+          <p class="text-paper/70 text-lg leading-relaxed mb-6">Você se candidata. Espera retorno. Nada acontece. A vaga parecia adequada, mas sua candidatura desaparece no meio do processo.</p>
+          <p class="text-paper/70 text-lg leading-relaxed">Na maioria das vezes, o problema não é a sua carreira. É a forma como ela chega ao mercado: currículo confuso, LinkedIn genérico e ausência de palavras-chave fazem profissionais bons parecerem invisíveis.</p>
         </div>
-        <div class="grid md:grid-cols-2 gap-6">
-          <div class="border border-line bg-white p-7"><h3 class="font-serif text-2xl mb-3">Currículo confuso</h3><p class="text-sm text-muted leading-relaxed">O documento mostra atividades, mas não deixa claro escopo, senioridade, impacto e direção profissional.</p></div>
-          <div class="border border-line bg-white p-7"><h3 class="font-serif text-2xl mb-3">LinkedIn fraco</h3><p class="text-sm text-muted leading-relaxed">O perfil não aparece bem em buscas e não sustenta uma narrativa profissional consistente.</p></div>
-          <div class="border border-line bg-white p-7"><h3 class="font-serif text-2xl mb-3">Pouco retorno</h3><p class="text-sm text-muted leading-relaxed">Candidaturas são enviadas, mas a triagem não identifica rapidamente a aderência do perfil.</p></div>
-          <div class="border border-line bg-white p-7"><h3 class="font-serif text-2xl mb-3">Transição sem narrativa</h3><p class="text-sm text-muted leading-relaxed">A experiência anterior não é traduzida em competências úteis para a área desejada.</p></div>
+        <div class="grid gap-6">
+          <div class="border border-line-light p-8 bg-paper/5"><h3 class="font-serif text-2xl mb-3">Seu currículo pode morrer na primeira triagem</h3><p class="text-paper/65 text-sm leading-relaxed">Você pode ter a experiência certa e ainda assim ser filtrado por um documento mal estruturado. Ele precisa ser lido, entendido e lembrado.</p></div>
+          <div class="border border-line-light p-8 bg-paper/5"><h3 class="font-serif text-2xl mb-3">Você descreve tarefas. O mercado procura impacto.</h3><p class="text-paper/65 text-sm leading-relaxed">“Responsável por”, “apoio em” e “rotinas de” não mostram escopo, senioridade, responsabilidade e resultado com força suficiente.</p></div>
+          <div class="border border-gold/40 p-8 bg-paper/5"><h3 class="font-serif text-2xl mb-3 text-gold">Seu LinkedIn parece de qualquer profissional da sua área?</h3><p class="text-paper/65 text-sm leading-relaxed">Se a headline não diz claramente quem você é e o “Sobre” parece genérico, você perde visibilidade antes mesmo da conversa começar.</p></div>
         </div>
       </div>
     </section>
 
-    <section id="metodo" class="py-24 md:py-32 px-6 lg:px-8 bg-ink text-paper">
+    <section class="py-24 md:py-32 px-6 lg:px-8 max-w-7xl mx-auto text-center">
+      <h2 class="font-serif text-4xl md:text-6xl leading-tight font-semibold max-w-5xl mx-auto mb-8 text-balance">Você não precisa parecer outro profissional. Precisa mostrar melhor o profissional que já é.</h2>
+      <p class="text-lg text-muted max-w-3xl mx-auto mb-12 leading-relaxed">A LB não inventa dados, não força uma senioridade que você não tem e não promete resultado que ninguém pode garantir. O trabalho é identificar o que há de mais forte na sua trajetória e reorganizar isso em uma narrativa clara, competitiva e coerente.</p>
+      <a href="#contato" class="inline-flex px-8 py-4 bg-ink text-paper text-sm font-medium uppercase tracking-wider hover:bg-gold hover:text-ink transition-colors">Quero clareza no meu posicionamento</a>
+    </section>
+
+    <section id="metodo" class="bg-paper border-y border-line py-24 md:py-32 px-6 lg:px-8">
       <div class="max-w-7xl mx-auto">
-        <div class="max-w-3xl mb-16">
-          <span class="font-mono text-xs uppercase tracking-[0.22em] text-paper/50 block mb-4">O método</span>
-          <h2 class="font-serif text-4xl md:text-5xl leading-tight mb-6">Um trabalho consultivo, humano e criterioso.</h2>
-          <p class="text-paper/70 leading-relaxed">Não é preenchimento automático. É leitura de trajetória, reorganização estratégica e revisão humana para transformar informação bruta em posicionamento profissional.</p>
+        <div class="mb-16 md:mb-24 flex flex-col md:flex-row md:items-end justify-between gap-8">
+          <div class="max-w-2xl">
+            <span class="font-mono text-xs uppercase tracking-[0.22em] text-muted mb-6 block">O diferencial</span>
+            <h2 class="font-serif text-4xl md:text-5xl leading-tight font-semibold">O método para corrigir o que trava sua apresentação</h2>
+          </div>
+          <p class="text-muted max-w-md text-sm leading-relaxed">Um processo humano que combina leitura executiva, visão de recrutamento, critérios reais de triagem e posicionamento profissional.</p>
         </div>
-        <div class="grid md:grid-cols-4 gap-px bg-line-light border border-line-light">
-          <div class="bg-ink p-8"><span class="font-mono text-xs text-gold">01</span><h3 class="font-serif text-2xl mt-8 mb-4">Diagnóstico</h3><p class="text-sm text-paper/65 leading-relaxed">Leitura do currículo, objetivo, senioridade, lacunas e forças reais.</p></div>
-          <div class="bg-ink p-8"><span class="font-mono text-xs text-gold">02</span><h3 class="font-serif text-2xl mt-8 mb-4">Estratégia</h3><p class="text-sm text-paper/65 leading-relaxed">Definição da narrativa profissional e das palavras-chave mais relevantes.</p></div>
-          <div class="bg-ink p-8"><span class="font-mono text-xs text-gold">03</span><h3 class="font-serif text-2xl mt-8 mb-4">Reescrita</h3><p class="text-sm text-paper/65 leading-relaxed">Currículo e LinkedIn reorganizados com linguagem clara, objetiva e profissional.</p></div>
-          <div class="bg-ink p-8"><span class="font-mono text-xs text-gold">04</span><h3 class="font-serif text-2xl mt-8 mb-4">Orientação</h3><p class="text-sm text-paper/65 leading-relaxed">Plano prático para usar os materiais em candidaturas, networking e entrevistas.</p></div>
+        <div class="grid md:grid-cols-3 gap-8 md:gap-12">
+          <div class="relative pl-6 border-l border-gold/40"><div class="absolute -left-[5px] top-0 w-2.5 h-2.5 bg-gold"></div><span class="font-mono text-xs text-muted mb-4 block">01</span><h3 class="font-serif text-2xl mb-3">Diagnóstico real da trajetória</h3><p class="text-sm text-muted leading-relaxed">Análise dos pontos fortes, ruídos, lacunas, excesso de informação, ausência de impacto e riscos de leitura.</p></div>
+          <div class="relative pl-6 border-l border-gold/40"><div class="absolute -left-[5px] top-0 w-2.5 h-2.5 bg-gold"></div><span class="font-mono text-xs text-muted mb-4 block">02</span><h3 class="font-serif text-2xl mb-3">Estrutura para triagem inicial</h3><p class="text-sm text-muted leading-relaxed">Currículo reorganizado para ser claro, objetivo e compatível com plataformas de recrutamento, sem perder leitura humana.</p></div>
+          <div class="relative pl-6 border-l border-line"><div class="absolute -left-[5px] top-0 w-2.5 h-2.5 bg-ink"></div><span class="font-mono text-xs text-muted mb-4 block">03</span><h3 class="font-serif text-2xl mb-3">Leitura de mercado</h3><p class="text-sm text-muted leading-relaxed">Avaliação do que chama atenção, do que enfraquece a candidatura e do que precisa aparecer nos primeiros segundos.</p></div>
         </div>
       </div>
     </section>
 
     <section id="servicos" class="py-24 md:py-32 px-6 lg:px-8 max-w-7xl mx-auto">
-      <div class="text-center max-w-3xl mx-auto mb-16">
-        <span class="font-mono text-xs uppercase tracking-[0.22em] text-muted block mb-4">Serviços</span>
-        <h2 class="font-serif text-4xl md:text-5xl leading-tight mb-6">Entregas para fortalecer sua presença profissional.</h2>
+      <div class="text-center mb-16 md:mb-24">
+        <span class="font-mono text-xs uppercase tracking-[0.22em] text-muted mb-4 block">Currículo e LinkedIn sem improviso</span>
+        <h2 class="font-serif text-4xl md:text-5xl font-semibold">Serviços para corrigir sua apresentação profissional</h2>
+        <div class="w-12 h-px bg-gold mx-auto mt-8"></div>
       </div>
-      <div class="grid lg:grid-cols-3 gap-6">
-        <article class="border border-line bg-white p-8 min-h-[320px]"><h3 class="font-serif text-3xl mb-5">Currículo profissional</h3><p class="text-muted text-sm leading-relaxed mb-8">Reorganização do currículo com foco em clareza, aderência, leitura por recrutadores e estrutura compatível com plataformas de recrutamento.</p><ul class="space-y-3 text-sm text-muted"><li>• Objetivo e resumo profissional</li><li>• Experiências reescritas por valor</li><li>• Competências agrupadas</li><li>• Linguagem objetiva e estratégica</li></ul></article>
-        <article class="border border-gold bg-white p-8 min-h-[320px]"><h3 class="font-serif text-3xl mb-5">LinkedIn otimizado</h3><p class="text-muted text-sm leading-relaxed mb-8">Headline, Sobre, experiências e competências alinhadas para reforçar posicionamento, busca orgânica e coerência com o currículo.</p><ul class="space-y-3 text-sm text-muted"><li>• Headline profissional</li><li>• Seção Sobre consultiva</li><li>• Experiências alinhadas</li><li>• Palavras-chave naturais</li></ul></article>
-        <article class="border border-line bg-white p-8 min-h-[320px]"><h3 class="font-serif text-3xl mb-5">Posicionamento</h3><p class="text-muted text-sm leading-relaxed mb-8">Leitura estratégica da trajetória para orientar candidatura, transição, recolocação e narrativa profissional.</p><ul class="space-y-3 text-sm text-muted"><li>• Diagnóstico de perfil</li><li>• Pontos fortes e lacunas</li><li>• Direção de candidatura</li><li>• Plano de próximos passos</li></ul></article>
+      <div class="grid lg:grid-cols-2 gap-8">
+        <article class="group border border-line bg-white p-10 md:p-12 hover:border-gold transition-colors"><h3 class="font-serif text-3xl mb-5 group-hover:text-gold-deep transition-colors">Currículo profissional para plataformas de recrutamento e leitura humana</h3><p class="text-muted text-sm leading-relaxed mb-8">Reescrita e reorganização do histórico para comunicar experiência, senioridade, escopo e resultados com clareza.</p><ul class="space-y-3 font-mono text-xs text-muted"><li>• Mapeamento de palavras-chave do seu mercado</li><li>• Destaque para escopo, entregas e resultados</li><li>• Estrutura limpa em DOCX e PDF</li></ul></article>
+        <article class="group border border-line bg-white p-10 md:p-12 hover:border-gold transition-colors"><h3 class="font-serif text-3xl mb-5 group-hover:text-gold-deep transition-colors">Otimização de LinkedIn para ser encontrado e compreendido</h3><p class="text-muted text-sm leading-relaxed mb-8">Headline, Sobre, experiências e competências alinhadas ao objetivo profissional e às buscas de recrutadores.</p><ul class="space-y-3 font-mono text-xs text-muted"><li>• Headline profissional</li><li>• Seção Sobre com narrativa clara</li><li>• Experiências conectadas ao objetivo</li></ul></article>
       </div>
     </section>
 
-    <section class="py-24 md:py-32 px-6 lg:px-8 bg-white border-y border-line">
+    <section class="bg-ink text-paper py-24 md:py-32 px-6 lg:px-8">
       <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
         <div>
-          <span class="font-mono text-xs uppercase tracking-[0.22em] text-muted block mb-4">Antes e depois</span>
-          <h2 class="font-serif text-4xl md:text-5xl leading-tight mb-6">A diferença está na forma como sua história é lida.</h2>
-          <p class="text-muted leading-relaxed">A LB não cria uma persona artificial. O trabalho é revelar com precisão o que já existe na sua trajetória, corrigindo ruído, excesso, fragilidade de linguagem e falta de direção.</p>
+          <span class="font-mono text-xs uppercase tracking-[0.22em] text-gold block mb-6">Antes e depois</span>
+          <h2 class="font-serif text-4xl md:text-6xl leading-tight font-semibold mb-8 text-balance">A diferença está na forma como sua história é lida.</h2>
+          <p class="text-paper/70 leading-relaxed">A LB não cria uma persona artificial. O trabalho é revelar com precisão o que já existe na sua trajetória, corrigindo ruído, excesso, fragilidade de linguagem e falta de direção.</p>
         </div>
         <div class="grid gap-6">
-          <div class="border border-line p-7 bg-paper"><p class="font-mono text-xs uppercase tracking-widest text-muted mb-3">Antes</p><p class="font-serif text-2xl">“Atuei com rotinas administrativas, controles e relatórios.”</p></div>
-          <div class="border border-gold p-7 bg-paper"><p class="font-mono text-xs uppercase tracking-widest text-gold-deep mb-3">Depois</p><p class="font-serif text-2xl">“Apoiei a gestão operacional por meio de controles, relatórios e organização de informações para acompanhamento de processos e tomada de decisão.”</p></div>
+          <div class="border border-line-light p-7 bg-paper/5"><p class="font-mono text-xs uppercase tracking-widest text-paper/45 mb-3">Antes</p><p class="font-serif text-2xl">“Atuei com rotinas administrativas, controles e relatórios.”</p></div>
+          <div class="border border-gold/50 p-7 bg-paper/5"><p class="font-mono text-xs uppercase tracking-widest text-gold mb-3">Depois</p><p class="font-serif text-2xl">“Apoiei a gestão operacional por meio de controles, relatórios e organização de informações para acompanhamento de processos e tomada de decisão.”</p></div>
         </div>
       </div>
     </section>
 
-    <section id="duvidas" class="py-24 md:py-32 px-6 lg:px-8 max-w-7xl mx-auto">
-      <div class="max-w-3xl mx-auto text-center mb-16">
-        <span class="font-mono text-xs uppercase tracking-[0.22em] text-muted block mb-4">Dúvidas comuns</span>
-        <h2 class="font-serif text-4xl md:text-5xl leading-tight mb-6">Currículo, LinkedIn e recolocação profissional.</h2>
-      </div>
-      <div class="grid md:grid-cols-2 gap-6">
-        <div class="border border-line bg-white p-8"><h3 class="font-serif text-xl mb-3">Como melhorar meu currículo para entrevistas?</h3><p class="text-sm text-muted leading-relaxed">Com estrutura limpa, palavras-chave coerentes, experiências descritas por valor e uma narrativa compatível com o objetivo profissional.</p></div>
-        <div class="border border-line bg-white p-8"><h3 class="font-serif text-xl mb-3">Por que envio currículo e não recebo retorno?</h3><p class="text-sm text-muted leading-relaxed">A triagem pode não estar entendendo sua aderência por falta de clareza, senioridade mal posicionada ou ausência de termos relevantes.</p></div>
-        <div class="border border-line bg-white p-8"><h3 class="font-serif text-xl mb-3">Como deixar meu LinkedIn mais profissional?</h3><p class="text-sm text-muted leading-relaxed">Com headline objetiva, Sobre bem construído, experiências consistentes e palavras-chave que sustentem sua área-alvo.</p></div>
-        <div class="border border-line bg-white p-8"><h3 class="font-serif text-xl mb-3">A consultoria garante recolocação?</h3><p class="text-sm text-muted leading-relaxed">Não. O trabalho fortalece sua apresentação e competitividade, mas não promete aprovação, entrevista ou contratação.</p></div>
-      </div>
-    </section>
-
-    <section id="contato" class="py-32 px-6 lg:px-8 bg-ink text-center text-paper relative overflow-hidden">
-      <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(#C9A961 1px, transparent 1px); background-size: 40px 40px;"></div>
-      <div class="relative z-10 max-w-3xl mx-auto">
-        <h2 class="font-serif text-4xl md:text-6xl leading-tight mb-8 text-balance">Quantas vagas boas você ainda vai perder antes de corrigir sua apresentação profissional?</h2>
-        <p class="text-paper/70 text-lg leading-relaxed mb-10">Se você tem experiência, mas não recebe retorno, talvez o problema não seja sua carreira. Talvez seja a forma como ela está chegando ao mercado.</p>
-        <a href="mailto:contato@exemplo.com.br" class="inline-flex px-10 py-5 bg-gold text-ink text-sm font-semibold uppercase tracking-wider hover:bg-gold-deep transition-colors">Quero corrigir meu currículo e LinkedIn</a>
-        <p class="mt-8 font-mono text-xs text-paper/45 uppercase tracking-widest">Atendimentos limitados para manter profundidade, revisão humana e qualidade consultiva.</p>
+    <section id="contato" class="py-28 md:py-36 px-6 lg:px-8 text-center bg-paper">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="font-serif text-4xl md:text-6xl leading-tight font-semibold mb-8 text-balance">Quantas vagas boas você ainda vai perder antes de corrigir sua apresentação profissional?</h2>
+        <p class="text-muted text-lg leading-relaxed mb-10 max-w-2xl mx-auto">Se você tem experiência, mas não recebe retorno, talvez o problema não seja sua carreira. Talvez seja a forma como ela está chegando ao mercado.</p>
+        <a href="mailto:contato@lbconsultoriadecarreira.com.br" class="inline-flex px-10 py-5 bg-ink text-paper text-sm font-semibold uppercase tracking-wider hover:bg-gold hover:text-ink transition-colors">Quero corrigir meu currículo e LinkedIn</a>
+        <p class="mt-8 font-mono text-xs text-muted uppercase tracking-widest">Atendimentos limitados para manter profundidade, revisão humana e qualidade consultiva.</p>
       </div>
     </section>
   </main>
 
   <footer class="bg-ink text-paper pt-16 pb-8 px-6 lg:px-8 border-t border-line-light">
-    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center md:items-start gap-8 mb-12">
-      <a href="#" class="inline-flex items-center gap-4 hover:opacity-80 transition-opacity" aria-label="LB Consultoria de Carreira">
-        <img src="/assets/logos/lb_monograma_header.svg" alt="LB Consultoria de Carreira" class="h-14 md:h-16 w-auto invert" />
-        <div class="flex flex-col leading-none">
-          <span class="font-serif text-lg tracking-[0.18em] text-paper uppercase">LB Consultoria</span>
-          <span class="mt-2 text-[0.55rem] tracking-[0.34em] text-paper/60 uppercase">Propósito · Direção · Transformação</span>
-        </div>
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center md:items-start gap-10 mb-12">
+      <a href="#" aria-label="LB Consultoria de Carreira" class="inline-flex">
+        <img src="/assets/logos/lb_logo_horizontal.svg" alt="LB Consultoria de Carreira" class="brand-logo invert" />
       </a>
       <nav class="flex flex-wrap justify-center gap-6 md:gap-10">
         <a href="#problema" class="text-xs font-mono uppercase tracking-widest text-paper/60 hover:text-gold transition-colors">Abordagem</a>
@@ -217,7 +187,7 @@
       </nav>
     </div>
     <div class="max-w-7xl mx-auto border-t border-line-light pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
-      <p class="text-xs text-paper/40 font-mono">&copy; 2026 LB Consultoria. Todos os direitos reservados.</p>
+      <p class="text-xs text-paper/40 font-mono">&copy; 2026 LB Consultoria de Carreira. Todos os direitos reservados.</p>
       <p class="text-xs text-paper/40 font-mono">Clareza · Confidencialidade · Posicionamento</p>
     </div>
   </footer>
@@ -227,9 +197,9 @@
     const menu = document.getElementById('mobile-menu');
     const links = document.querySelectorAll('.mobile-link');
     btn?.addEventListener('click', () => {
-      const isHidden = menu.classList.contains('hidden');
+      const opened = !menu.classList.contains('hidden');
       menu.classList.toggle('hidden');
-      btn.setAttribute('aria-expanded', String(isHidden));
+      btn.setAttribute('aria-expanded', String(!opened));
     });
     links.forEach((link) => link.addEventListener('click', () => {
       menu.classList.add('hidden');
